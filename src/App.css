@@ -1,0 +1,46 @@
+.main{
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-left: 450px;
+}
+.buttons{
+  display: flex;
+}
+.btn1{
+  background: rgb(30, 199, 30);
+  color: white;
+}
+.btn2{
+  background: rgb(221, 62, 62);
+  color: white;
+  margin-left: 20px;
+}
+.btn3{
+  background: rgb(160, 158, 158);
+  color: white;
+  margin-left: 20px;
+}
+@media(max-width:1280px){
+    .main{
+      text-align: center;
+      align-items: center;
+      margin-left: 400px;
+    }
+}
+@media(max-width:1024px){
+  .main{
+    margin-left: 300px;
+  }
+}
+@media(max-width:800px){
+  .main{
+    margin-left: 140px;
+  }
+}
+@media(max-width:500px){
+  .main{
+    margin-left: 80px;
+  }
+}
